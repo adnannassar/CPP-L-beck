@@ -30,11 +30,10 @@ int main(){
     number %= 5; // number = number % 5;
 
 
-
     
     cout<< "a = " << a++ << endl; // Post increament a = 11 in speicher und 10 in ausgabe
     cout<< "a = " << a << endl; // a = 11 in speicher und 11 in ausgabe
-    cout<< "a = " << ++a << endl; // Pre increament a = 12 in speicher und 12 in ausgabe
+    cout<< "a = " << a << endl; // Pre increament a = 12 in speicher und 12 in ausgabe
     cout<< "a = " << a << endl; // a = 12 in speicher und 12 in ausgabe
 
 
