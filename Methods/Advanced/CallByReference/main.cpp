@@ -7,6 +7,7 @@ void printArray(int array []) {
         if(i == 3)
         array[3] = 100;
         cout << array[i] << " ";
+      
     }
     cout<< endl;
 }
