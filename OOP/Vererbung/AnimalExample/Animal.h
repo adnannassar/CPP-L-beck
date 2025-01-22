@@ -17,8 +17,9 @@ class Animal{
                 // setters
                 void setName(string name);
                 void setAge(int newAge);
+                
                 // weiter methoden
-                void fressen(string futter);
+                virtual void fressen(string futter);
 };
 
 #endif

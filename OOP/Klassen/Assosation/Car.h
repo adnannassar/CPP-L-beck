@@ -11,11 +11,11 @@ class Car{
        ~Car();
 
        // getter
-        std::string getName();
+        std::string getName(){}
         std::string getMarke();
         int getSpeed();
-        // setter
-        
+       
+        // setter 
         void setName(std::string na);
         void setMarke(std::string ma);
         void setSpeed(int sp);

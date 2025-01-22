@@ -12,9 +12,12 @@ class Cat : public Animal{
         
         // getter
         float getTailLength();
+       
         // setter
         void setTailLength(float newTailLength);
         void meaw();
+        void fressen(string futter) override;
 };
+
 
 #endif
