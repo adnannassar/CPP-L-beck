@@ -1,8 +1,8 @@
 #include <iostream>  // Für die Ausgabe
 using namespace std;
 
-int main() {
-    // Variablen und Datentypen Erklärung
+void basics(){
+ // Variablen und Datentypen Erklärung
     cout << "Variablen sind Speicherplätze, in denen Werte gespeichert werden können.\n";
     cout << "Ein Datentyp definiert, welche Art von Daten eine Variable speichern kann.\n";
     cout << "Hier sind einige grundlegende Datentypen in C++ und ihre Speichergröße:\n\n";
@@ -82,6 +82,20 @@ int main() {
     cout << "Nachname: \"" << nachname << "\"\n";
     cout << "Vollständiger Name nach Verkettung: \"" << vollerName << "\"\n";
     cout << "Länge des vollständigen Namens: " << vollerName.length() << " Zeichen\n\n";
+}
+
+int main() {
+    // basics();
+    char letter1 = 'A';
+    char letter2 = 65;
+
+    int letter3 = 'A';
+
+
+    cout<< letter1 <<endl;
+    cout<< letter2 <<endl;
+    cout<< letter3 <<endl;
+
     
     return 0;
 }
